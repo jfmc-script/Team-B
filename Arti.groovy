@@ -1,1 +1,1 @@
-userInput(name: "foobar", type: "INSTANCE")
+userInput(name: "foobar", type: "REPOSITORY")
