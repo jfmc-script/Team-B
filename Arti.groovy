@@ -5,7 +5,7 @@ other = userInput(name: "Instances to replicate to:", type: "ARTIFACTORY", multi
 
 artifactory('Art-1') {
 	localRepository('generic-test') {
-  		description repo.name//other*.name //+ ' - ' + repo.key
+  		description repo.key//other*.name //+ ' - ' + repo.key
   		packageType "generic"
 	}
 }
