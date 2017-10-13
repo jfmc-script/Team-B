@@ -1,1 +1,1 @@
-UI = userInput(name: "foobar", type: "INSTANCE")
+UI = userInput(name: "foobar", type: "INSTANCE", multivalued: true)
