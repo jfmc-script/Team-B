@@ -1,1 +1,1 @@
-UI = userInput(name: "foobar", type: "REPOSITORY")
+UI = userInput(name: "foobar", type: "INSTANCE")
