@@ -1,1 +1,1 @@
-userInput(name: "foobar", type: "INSTANCE", multivalued: true)
+userInput(name: "foobar", type: "INSTANCE")
