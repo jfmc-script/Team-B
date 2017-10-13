@@ -1,5 +1,6 @@
-repokey = userInput (
-  type : "STRING", // "BOOLEAN", "INTEGER", "INSTANCE", "REPOSITORY"
-  description : "Repository Key",
-  validations : (["cron"])
-)
+artifactory("Art1") {
+  localRepository("docker-local-b") {
+    packageType "docker"
+    description "My local Docker registry-vvvvvv"
+  }
+}
