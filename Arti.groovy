@@ -1,20 +1,20 @@
 stringInput = userInput (
-    type : "STRING", // "BOOLEAN", "INTEGER", "INSTANCE", "REPOSITORY"
+    type : "STRING",
     description : "String input"
 )
 
 booleanInput = userInput (
-    type : "BOOLEAN", //"INTEGER", "INSTANCE", "REPOSITORY"
+    type : "BOOLEAN", 
     description : "Boolean input"
 )
 
 integerInput = userInput (
-    type : "INTEGER", //"INSTANCE", "REPOSITORY"
+    type : "INTEGER", 
     description : "Integer input"
 )
 
 instanceInput = userInput (
-    type : "INSTANCE", // "REPOSITORY"
+    type : "INSTANCE", 
     description : "Instance input"
 )
 
