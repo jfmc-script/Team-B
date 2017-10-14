@@ -4,10 +4,10 @@ repo = userInput(name: "Repository to replicate:", type: "REPOSITORY")
 other = userInput(name: "Instances to replicate to:", type: "ARTIFACTORY", multivalued: true)
 
 for (art in other) {
-  artifactory(art.name) {
+  artifactory('Art-1') {
       localRepository('repo') {
-        description 'foobar'
-        packageType 'generic'
+        description repo.description
+        packageType repo.packageType
       }
   }
 }
