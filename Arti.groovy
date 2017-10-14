@@ -6,8 +6,8 @@ other = userInput(name: "Instances to replicate to:", type: "ARTIFACTORY", multi
 for (art in other) {
   artifactory(art.name) {
       localRepository('repo-local') {
-        description repo.description
-        packageType repo.packageType
+        description 'description'
+        packageType 'generic'
       }
   }
 }
