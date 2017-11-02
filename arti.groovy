@@ -1,6 +1,5 @@
 name = userInput (
     type : "STRING",
-    value : "Insert Artifactory Name",
     description : "Please provide Seervice name"
   )
 artifactory(name){
