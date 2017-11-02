@@ -1,9 +1,9 @@
 artifactory('Denver'){
 localRepository("my-repository") {
-  packageType userInput (
+  description userInput (
     type : "STRING",
-    value : "Insert the pacakge type ",
-    description : "Please provide a pacakge type "
+    value : "This is a generic description",
+    description : "Please provide a description"
   )
 }
 }
